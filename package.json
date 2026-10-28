@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "mkdir -p dist && cp public/index.html dist/index.html && esbuild src/main.jsx --bundle --minify --outfile=dist/bundle.js --loader:.js=jsx --define:process.env.NODE_ENV=\"production\""
+    "build": "node build.js"
   },
   "dependencies": {
     "react": "^18.3.1",
